@@ -21,7 +21,7 @@ public class testPatel extends Sample{
 		//}
 		
 	}
-	public static void main(String args[])  {
+	public static void main(String args[])   {
 
 		try {
 			Sample s = new testPatel();
@@ -29,6 +29,8 @@ public class testPatel extends Sample{
 			testPatel.test();
 			throw new Exception();
 		} catch (Exception e) {
+			//throw new Exception();
+		}finally{
 			//throw new Exception();
 		}
 
