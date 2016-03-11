@@ -7,8 +7,10 @@ class Sample{
 	String name;
 }
 
+
 public class testPatel extends Sample{
 
+	
 	 static void test() throws FileNotFoundException{
 		//try {
 			int a =10;
