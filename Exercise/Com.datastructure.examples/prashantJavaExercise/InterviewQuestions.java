@@ -8,11 +8,11 @@ public class InterviewQuestions {
 	}
 
 	private static void JavaTest(Exception e){
-		System.out.println("In main Exception"+e);
+		System.out.println("In main Exception "+e);
 	}
 	
 	private static void JavaTest(ArithmeticException ae){
-		System.out.println("In sub class exception"+ae);
+		System.out.println("In sub class exception  "+ae);
 	}
 	
 	public static void JavaTest(Object o) {
