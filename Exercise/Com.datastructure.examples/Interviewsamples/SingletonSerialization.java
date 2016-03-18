@@ -27,7 +27,7 @@ public class SingletonSerialization implements Serializable {
 		return singletonSerialization;
 	}
 
-	private void readObject(ObjectOutputStream ois) throws IOException, ClassNotFoundException {
+	private void writeObject(ObjectOutputStream ois) throws IOException, ClassNotFoundException {
 		ois.defaultWriteObject();
 		synchronized (SingletonSerialization.class) {
 			if (singletonSerialization == null) {
