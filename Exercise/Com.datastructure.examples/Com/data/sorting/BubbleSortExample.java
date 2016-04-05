@@ -1,8 +1,17 @@
 package Com.data.sorting;
 
-public class BubbleSortExample {
-	public static void main() {
+import java.util.ArrayList;
+import java.util.List;
 
+public class BubbleSortExample {
+	public static void main(String args[]) {
+		
+		Runtime bs = Runtime.getRuntime();
+		System.out.println(" Hashcode bs "+bs.hashCode());
+		Runtime bs1 = Runtime.getRuntime();
+		System.out.println(" Hashcode bs1 "+bs1.hashCode());
+		List<Integer> list = new ArrayList<>();
+		list.add(12);
 		int[] intArray = { 3, 7, 2, 7, 1, 4, 9 };
 
 		for (int i = intArray.length; i >= 0; i--) {
