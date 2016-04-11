@@ -5,14 +5,14 @@ public class StringCount1 {
 	public static void main(String[] args) {
 		String str= "asdfgsasdfsd";
 		String searchString="d";
-		int lastIndex=0;
+		int firstIndex=0;
 		int count=0;
 		
-		while(lastIndex!=-1){
-			lastIndex = str.indexOf(searchString, lastIndex);
-			if(lastIndex!=-1){
+		while(firstIndex!=-1){
+			firstIndex = str.indexOf(searchString, firstIndex);
+			if(firstIndex!=-1){
 				count++;
-				lastIndex=lastIndex + searchString.length();
+				firstIndex=firstIndex + searchString.length();
 			}
 			
 		}
