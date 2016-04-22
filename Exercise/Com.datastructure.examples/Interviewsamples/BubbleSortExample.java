@@ -1,9 +1,9 @@
 package Interviewsamples;
 
 public class BubbleSortExample {
-	public static void main() {
+	public static void main(String args[]) {
 
-		int[] intArray = { 3, 7, 2, 7, 1, 4, 9 };
+		int[] intArray = { 3, 7, 2, 10, 1, 4, 9 };
 
 		for (int i = intArray.length; i >= 0; i--) {
 
