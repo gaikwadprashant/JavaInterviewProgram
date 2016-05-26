@@ -6,7 +6,16 @@ import java.util.Set;
 
 public class SubTwoArray {
 
-	public static void main(String[] args) {/*
+	public static void main(String[] args) {
+		StringBuilder a=new StringBuilder("abcd");
+		StringBuilder b=new StringBuilder("abcd");
+	//	String b="abcd";
+		if(a==b){
+			System.out.println("abcd");
+		}else{
+			System.out.println("sdfhsdgfhj");
+		}
+		/*
 		char[] arrayA = new char[] {'a', 'b', 'c', 'd', 'e', 'f'};
 		char[] arrayB = new char[] {'a', 'd', 'e'};
 		Character[] objarrayA = ArrayUtils.toObject(arrayA);
